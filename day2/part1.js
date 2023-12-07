@@ -5,7 +5,7 @@ const path = require("node:path");
 let sum = 0;
 
 const readlineInterface = readline.createInterface({
-  input: fs.createReadStream(path.resolve("../input.txt")),
+  input: fs.createReadStream(path.resolve("./input.txt")),
   output: process.stdout,
   terminal: false,
 });

@@ -4,7 +4,7 @@ const path = require("node:path");
 /**
  * Whole file in memory is cheating imo... but hey ¯\_(ツ)_/¯ 
  */
-fs.readFile(path.resolve("../input.txt"), "utf-8", (err, data) => {
+fs.readFile(path.resolve("./input.txt"), "utf-8", (err, data) => {
   let sum = 0;
   const lines = data.split("\n");
 
